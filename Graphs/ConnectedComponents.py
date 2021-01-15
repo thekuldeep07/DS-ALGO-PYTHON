@@ -30,8 +30,6 @@ class Graph:
                 cc.append(self.dfsUtil(temp,v,visited))
         return cc 
     
-
-
 gp=Graph()
 gp.addEdge(0,1)
 gp.addEdge(1,2)
