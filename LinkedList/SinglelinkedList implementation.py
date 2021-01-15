@@ -7,7 +7,6 @@ class LinkedList():
         self.length=0
         self.head=Node(None)
         self.tail=Node(None)
-
     def append(self,data):
         newNode=Node(data)
         if self.head:
