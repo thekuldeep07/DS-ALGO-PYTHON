@@ -1,7 +1,6 @@
 # this program will use minHeap to implement Djikstra  and also we will print path information
 import heapq
 
-
 class Graph():
     def __init__(self):
         self.NoOfNodes = 0
