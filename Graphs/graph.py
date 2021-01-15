@@ -14,8 +14,7 @@ class Graph:
                 self.graphDict[node1].append(node2)
         else:
             self.graphDict[node1]=[node2]
-
-    def bfs(self,node):
+    def bfs(sUndirectedelf,node):
         visited=set()
         visited.add(node)
         q=[node]
