@@ -25,4 +25,3 @@ class MyHashMap():
 map1=MyHashMap()
 map1.set('hii',101)
 print(map1.get('hii'))
-
