@@ -129,7 +129,6 @@ class BST():
             print(root.data,end=" ")
             self.inorder(root.right)  
           
-
     def inorderIterative(self,root):
         curr=root
         if root is None:
@@ -248,18 +247,6 @@ class BST():
                  nodeNo-=1     
 
 
-        
-        
-              
-
-
-
-
-
-
-
-
-
 
 
 def peek(s):
@@ -267,25 +254,6 @@ def peek(s):
         item=s[-1]
         return item            
 
-
-
-
-
-
-
-
-
-
-
-              
-
-
-
-            
-
-
-
-                                    
 
                                 
 tree=BST()
