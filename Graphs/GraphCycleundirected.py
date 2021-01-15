@@ -14,7 +14,6 @@ class Graph:
                 self.graphDict[node1].append(node2)
         else:
             self.graphDict[node1]=[node2]
-              
 
     def BFSCycle(self,src):
         visited=set()
