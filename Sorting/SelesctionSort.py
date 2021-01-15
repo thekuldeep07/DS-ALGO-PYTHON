@@ -20,4 +20,3 @@ def stableSelctionSort(arr):
         arr[i]=key    
 
 
-
