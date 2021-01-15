@@ -32,9 +32,6 @@ class Graph:
         for i in self.graphDict:
             print("source Node (" +str(src)+") -> Distance Node ( "+ str(i)+ "):" + str(distance[i]))        
 
-            
-
-
 
 gp=Graph()
 gp.addEdge(0,1,5)
