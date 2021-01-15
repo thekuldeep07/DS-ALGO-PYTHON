@@ -18,7 +18,6 @@ def HeapSort(arr):
         arr[i],arr[0]=arr[0],arr[i]
         heapifyDown(arr,i,0)        
 
-
 arr=[5,7,2,9,7,6,0]
 HeapSort(arr)
 print(arr)
