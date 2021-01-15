@@ -14,6 +14,7 @@ class Stack():
     def pop(self):
         if not self.q1:
             return ("UNdereflow")
+        
         else:
             return self.q1.popleft()            
 
