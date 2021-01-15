@@ -7,7 +7,6 @@ def selectionSort(arr):
         arr[i],arr[min]=arr[min],arr[i]
 
 #below is the stable selection sort using insettion instead of swapping
-
 def stableSelctionSort(arr):
     for i in range(n):
         min =i
