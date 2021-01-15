@@ -21,8 +21,6 @@ def optimizeBubblesort(arr):
             if swapped == False:
                 break      
 
-
-
 arr=[5,3,0,144]
 bubbleSort(arr)
 print(arr)
