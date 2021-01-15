@@ -18,7 +18,6 @@ class Graph():
         return minIndex                
             
         
-
     def djikstra(self,src):
         dist=[sys.maxsize]*self.V
         dist[src]=0
