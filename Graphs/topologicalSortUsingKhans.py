@@ -14,7 +14,7 @@ class Graph:
             self.graphDict[node2]=[]
             self.noOfNodes+=1
 
-    
+   
 
     def topoLogicalSort(self):
         indegree=[0]*(len(self.graphDict))
