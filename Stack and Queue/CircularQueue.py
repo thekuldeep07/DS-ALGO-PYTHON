@@ -10,7 +10,7 @@ class CircularQueue():
             self.queue[self.front]=data
         elif (self.rear+1)%self.size == self.front:
             print("queue is full")  
-        else:
+        else: 
             self.rear=(self.rear+1)%self.size
             self.queue[self.rear]=data
     def dequeue(self):
