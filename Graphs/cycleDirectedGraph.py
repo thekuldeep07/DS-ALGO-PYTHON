@@ -25,7 +25,7 @@ class Graph:
         recStack[node]=False
         return False                
 
-
+    
 
 
     def findCycle(self):
