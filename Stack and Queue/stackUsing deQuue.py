@@ -21,3 +21,4 @@ s1=Stack()
 s1.push(5)
 s1.push(2)
 print(s1.pop())        
+ 
