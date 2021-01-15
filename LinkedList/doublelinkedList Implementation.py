@@ -60,7 +60,7 @@ class DoubleLinkedList():
             self.length-=1
             return
         elif index==self.length-1:
-            self.tail=self.tail.prev
+            self.tail=self.tail.prev 
             self.tail.next=None
             selef.length-=1
             return
